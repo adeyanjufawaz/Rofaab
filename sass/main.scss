@@ -1,0 +1,34 @@
+@import "abstract/function";
+@import "abstract/mixins"; 
+@import "abstract/variable";  
+
+@import "base/animation"; 
+@import "base/typography/homepage--typograpghy";
+@import "base/base"; 
+@import "base/utilities";
+  
+@import "component/buttons";
+@import "component/card";  
+ 
+
+@import "layout/footer";
+@import "layout/grid"; 
+@import "layout/header";
+
+@import "media-query/base-Mquery"; 
+@import "media-query/homepage-Mquery";   
+ 
+@import "pages/home"; 
+
+
+
+
+
+
+
+
+
+
+
+
+

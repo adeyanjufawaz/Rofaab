@@ -1,0 +1,53 @@
+.header{
+    background-image: 
+      linear-gradient(to bottom right,
+      rgba($color-pry__3, 0.98),
+      rgba($color-pry__2, 0.85),
+      rgba($color-pry__1, 0.83)), 
+      url(../img/roof-plate.jpeg);
+    background-size: cover;
+    background-position: center;
+    color:$color-white;
+    height:95vh;
+    position: relative;
+
+    &-logo{
+      position: absolute;
+      top:0.5%;
+      left:4rem;
+      font-weight: 800; 
+      height:7rem;
+      z-index:1;
+      position: fixed; 
+    }
+
+    &-textbox{
+       position: absolute;
+       top:55%;
+       left:50%;
+       transform: translate(-50%,-50%); 
+       text-align: center;
+       line-height:1.4;
+    }
+
+    &__main-text{
+       font-size:9rem;
+       font-weight:500;
+       margin-left:3rem;
+       
+       letter-spacing:4.5rem; 
+       display: block;  
+    }
+
+    &__sub-text{
+       font-size:1.7rem; 
+       font-weight: 600;
+       display:block;   
+       letter-spacing:.25rem;
+       text-transform: uppercase;        
+       margin-bottom:6rem;
+    }
+}
+
+
+

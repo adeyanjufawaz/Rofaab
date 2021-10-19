@@ -1,0 +1,45 @@
+.service{ 
+    background-color: $color-white-dark;
+    padding:6rem;
+    text-align: center;
+}
+
+.about-us{
+    background-image: 
+    linear-gradient(to  top left,
+    rgba($color-pry__2, 0.6),
+    rgba($color-pry__2, 0.87)),
+    url(../img/about-us.jpg);
+    outline:5px double #fff;
+    outline-offset:-4rem;
+    background-size: cover; 
+    background-position: center; 
+    padding:5rem 0 7rem 0;
+    text-align: center;
+    line-height:1.8;
+}
+
+.customer-review{
+    background-image: 
+      linear-gradient(to  bottom left,
+      rgba($color-white-dark, 0.85),
+      rgba($color-white-dark, 0.95)),
+      url(../img/reviews.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding:3rem 3rem 12rem 3rem;
+}
+
+.our-team{
+    padding:6rem;
+    background-image: 
+      linear-gradient(to  left top,
+      rgba($color-grey, 0.6),
+      rgba($color-grey, 0.67)),
+      url(../img/meeting.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:15px solid #777;
+}

@@ -1,0 +1,493 @@
+h1 {
+  background-image: linear-gradient(to bottom right, rgba(187, 235, 16, 0.98), rgba(30, 30, 218, 0.85), rgba(139, 26, 115, 0.83)), url(../img/roof-plate.jpeg);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 1.7rem;
+  font-size: 7rem;
+  text-transform: uppercase; }
+
+h2 {
+  color: #333;
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+.navbar ul {
+  background-image: linear-gradient(to left, rgba(187, 235, 16, 0.98), rgba(139, 26, 115, 0.85)), url(../img/roof-plate.jpeg);
+  position: fixed;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  z-index: 100; }
+  .navbar ul li {
+    list-style: none;
+    font-size: 1.45rem;
+    margin-right: 2rem;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    align-self: center;
+    text-transform: uppercase; }
+    .navbar ul li a {
+      text-decoration: none;
+      color: #fff;
+      transition: all .18s ease-in-out;
+      backface-visibility: hidden; }
+      .navbar ul li a:hover {
+        background-color: #777;
+        color: #fff;
+        padding: 1.25rem;
+        outline: 5px double #fff;
+        outline-offset: -.7rem; }
+
+.about-us .grid {
+  height: 65%;
+  width: 88%;
+  gap: 50px;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1.5fr;
+  margin-bottom: 3rem; }
+
+.about-us h1, .about-us h2 {
+  color: #fff; }
+
+.about-us h2 {
+  font-weight: 500; }
+
+.about-us .text-box {
+  text-align: left; }
+
+.about-us .image-box {
+  background-color: rgba(30, 30, 218, 0.3);
+  padding: 1rem;
+  text-align: left;
+  border: 5px double #333;
+  border-radius: 2rem;
+  box-shadow: -3px -5.4px 30px 3px #fff; }
+
+.about-us img {
+  height: 30rem;
+  width: 100%; }
+
+.service .grid {
+  gap: 30px;
+  width: 80%; }
+
+.service .card {
+  transition: all .5s; }
+
+.service .card:hover {
+  transform: translateY(-17px);
+  backface-visibility: hidden; }
+
+.service__pic {
+  clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+  height: 45%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative; }
+  .service__pic h3 {
+    position: absolute;
+    transform: translate(-50% -50%);
+    top: 35%;
+    right: 15%;
+    width: 50%;
+    font-weight: 600;
+    color: #fff;
+    font-size: 1.8rem;
+    width: 65%;
+    text-transform: uppercase; }
+
+.service__pic--1 {
+  background-image: linear-gradient(to bottom right, rgba(30, 30, 218, 0.68), rgba(30, 30, 218, 0.75)), url(../img/roof-sheet.jpg); }
+
+.service__pic--2 {
+  background-image: linear-gradient(to bottom right, rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.85)), url(../img/pickawood.jpg); }
+  .service__pic--2 h3 {
+    background-image: linear-gradient(to bottom right, rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.85)), url(../img/pickawood.jpg); }
+
+.service__pic--3 {
+  background-image: linear-gradient(to bottom right, rgba(30, 30, 218, 0.78), rgba(30, 30, 218, 0.85)), url(../img/roof-plate.jpeg); }
+
+.customer-review h1 {
+  font-size: 4rem;
+  letter-spacing: .7rem; }
+
+.customer-review .grid {
+  grid-template-columns: 1fr; }
+
+.customer-review .story {
+  color: #333;
+  width: 80%;
+  align-self: center;
+  justify-self: center;
+  transform: skewX(-12deg);
+  font-size: 1.4rem;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 3px;
+  padding: 6rem 5rem;
+  text-align: left;
+  transition: all .5s; }
+  .customer-review .story .story_shape {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    clip-path: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    transform: skewX(12deg);
+    text-align: center;
+    float: left;
+    margin-right: 3rem;
+    position: relative; }
+  .customer-review .story figcaption {
+    font-size: 1.3rem;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 5;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .6s;
+    opacity: 0; }
+  .customer-review .story:hover figcaption {
+    opacity: 1;
+    top: 50%; }
+  .customer-review .story:hover img {
+    filter: blur(7px) brightness(90%); }
+  .customer-review .story img {
+    height: 100%;
+    width: 100%; }
+  .customer-review .story .story-text {
+    transform: skewX(12deg); }
+    .customer-review .story .story-text h3 {
+      font-size: 2.5rem;
+      font-weight: 600;
+      text-transform: uppercase; }
+    .customer-review .story .story-text p {
+      font-size: 1.5rem;
+      font-weight: 400; }
+
+.our-team h1 {
+  color: #fff;
+  font-size: 8rem;
+  text-align: center; }
+
+.our-team .grid {
+  width: 70%;
+  gap: 4rem; }
+
+.our-team .card {
+  height: 37rem;
+  padding: 4rem 6.5rem;
+  outline-offset: -2rem;
+  border: 10px double #777;
+  border-radius: 7px;
+  outline: 3px solid #777;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all .5s; }
+  .our-team .card:hover {
+    transform: translateY(-3rem); }
+  .our-team .card img {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    padding: .5rem;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    border: 5px dotted #777; }
+  .our-team .card h4 {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1.5rem; }
+  .our-team .card p {
+    font-weight: 400; }
+
+.footer .grid {
+  grid-template-columns: 1fr 2.5fr 1.5fr;
+  width: 70%; }
+
+.footer img {
+  height: 200px;
+  width: 200px; }
+
+.footer .footer__address-box {
+  font-size: 2.5rem;
+  font-weight: 500; }
+  .footer .footer__address-box span {
+    text-transform: uppercase;
+    letter-spacing: 0.3rem; }
+  .footer .footer__address-box p {
+    letter-spacing: .5rem; }
+
+.footer .footer__navbar {
+  width: 100%; }
+  .footer .footer__navbar ul li {
+    list-style: none;
+    text-decoration: none; }
+    .footer .footer__navbar ul li a {
+      text-decoration: none;
+      font-size: 2rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: #fff; }
+      .footer .footer__navbar ul li a:hover {
+        color: #777;
+        font-weight: 700; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  font-weight: bolder; }
+
+body {
+  font-family: 'Roboto Slab', sans-serif;
+  line-height: 1.7;
+  position: relative; }
+
+.u-center-text {
+  text-align: center; }
+
+.u-left-align-text {
+  text-align: left; }
+
+.u-right-align-text {
+  text-align: right; }
+
+.u-margin-bottom-big {
+  margin-bottom: 9rem; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 2.5rem; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem; }
+
+.btn:link, .btn:visited {
+  padding: 2rem 4.5rem;
+  background-color: #fff;
+  color: #4d4b4b;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 300px;
+  letter-spacing: .18rem;
+  display: inline-block;
+  backface-visibility: hidden;
+  transition: all .1s; }
+
+.btn:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: -3px -5.4px 30px 3px #8b1a73e3; }
+
+.btn:active {
+  transform: translateY(3px);
+  box-shadow: 3px 5.4px 30px 3px #bbeb10; }
+
+.card {
+  background-color: #fff;
+  height: 38rem;
+  border-radius: .4rem;
+  z-index: 5;
+  max-width: 30rem;
+  box-shadow: 5px 4px 20px 2px #000; }
+  .card p {
+    color: #333;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    width: 80%;
+    text-transform: uppercase; }
+
+.footer {
+  background-color: rgba(32, 30, 30, 0.97);
+  text-align: center;
+  color: #fff;
+  border: 15px double #f7f7f7;
+  outline-offset: -3rem;
+  padding: 4rem 0; }
+
+.grid {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  gap: 40px;
+  height: 100%; }
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr); }
+
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr); }
+
+.grid-5 {
+  grid-template-columns: repeat(5, 1fr); }
+
+.flex {
+  display: flex; }
+
+.header {
+  background-image: linear-gradient(to bottom right, rgba(187, 235, 16, 0.98), rgba(30, 30, 218, 0.85), rgba(139, 26, 115, 0.83)), url(../img/roof-plate.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 95vh;
+  position: relative; }
+  .header-logo {
+    position: absolute;
+    top: 0.5%;
+    left: 4rem;
+    font-weight: 800;
+    height: 7rem;
+    z-index: 1;
+    position: fixed; }
+  .header-textbox {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 1.4; }
+  .header__main-text {
+    font-size: 9rem;
+    font-weight: 500;
+    margin-left: 3rem;
+    letter-spacing: 4.5rem;
+    display: block; }
+  .header__sub-text {
+    font-size: 1.7rem;
+    font-weight: 600;
+    display: block;
+    letter-spacing: .25rem;
+    text-transform: uppercase;
+    margin-bottom: 6rem; }
+
+@media (max-width: 2700px) {
+  html {
+    font-size: 100%; } }
+
+@media (max-width: 1700px) {
+  html {
+    font-size: 77.5%; } }
+
+@media (max-width: 1550px) {
+  html {
+    font-size: 62.5%; } }
+
+@media (max-width: 1300px) {
+  html {
+    font-size: 50%; } }
+
+@media (max-width: 900px) {
+  html {
+    font-size: 40%; } }
+
+@media (max-width: 700px) {
+  html {
+    font-size: 30%; } }
+
+@media (max-width: 600px) {
+  html {
+    font-size: 30%; } }
+
+@media (max-width: 2700px) {
+  html {
+    font-size: 100%; } }
+
+@media (max-width: 1700px) {
+  html {
+    font-size: 77.5%; } }
+
+@media (max-width: 1550px) {
+  html {
+    font-size: 62.5%; } }
+
+@media (max-width: 1300px) {
+  html {
+    font-size: 50%; } }
+
+@media (max-width: 900px) {
+  html {
+    font-size: 40%; }
+  .header {
+    height: 60vh; }
+  .about-us .grid {
+    grid-template-columns: 1fr;
+    height: 50%; } }
+
+@media (max-width: 700px) {
+  html {
+    font-size: 33%; }
+  .header {
+    height: 60vh; }
+  .service .grid {
+    grid-template-columns: 1fr;
+    height: 50%;
+    justify-content: center;
+    align-content: center; }
+    .service .grid .card {
+      align-self: center;
+      justify-self: center; } }
+
+@media (max-width: 600px) {
+  html {
+    font-size: 33%; }
+  .about-us .grid {
+    width: 80%; }
+  .our-team .grid {
+    grid-template-columns: 1fr; }
+    .our-team .grid .card {
+      margin: 0 auto; }
+  .footer .grid {
+    grid-template-columns: 1fr;
+    width: 80%;
+    height: 50%; }
+  .footer .footer__logo-box {
+    display: none; }
+  .footer .footer__address-box {
+    border-bottom: 2px solid #fff;
+    padding: 6rem 0; }
+  .footer .footer__navbar ul li a {
+    font-size: 3rem; } }
+
+.service {
+  background-color: #f7f7f7;
+  padding: 6rem;
+  text-align: center; }
+
+.about-us {
+  background-image: linear-gradient(to top left, rgba(30, 30, 218, 0.6), rgba(30, 30, 218, 0.87)), url(../img/about-us.jpg);
+  outline: 5px double #fff;
+  outline-offset: -4rem;
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 0 7rem 0;
+  text-align: center;
+  line-height: 1.8; }
+
+.customer-review {
+  background-image: linear-gradient(to bottom left, rgba(247, 247, 247, 0.85), rgba(247, 247, 247, 0.95)), url(../img/reviews.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 3rem 3rem 12rem 3rem; }
+
+.our-team {
+  padding: 6rem;
+  background-image: linear-gradient(to left top, rgba(119, 119, 119, 0.6), rgba(119, 119, 119, 0.67)), url(../img/meeting.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 15px solid #777; }

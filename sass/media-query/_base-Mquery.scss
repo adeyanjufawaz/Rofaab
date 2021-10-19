@@ -1,0 +1,71 @@
+
+// DESKTOP
+
+// DESKTOP PRO MAX
+@media (max-width:2700px) {
+   html{
+      font-size:100%;
+   }
+  
+}
+//...................................
+
+// DESKTOP PRO
+@media (max-width:1700px) {
+   html{
+      font-size:77.5%;
+   }
+  
+}
+//...................................
+
+// DESKTOP
+@media (max-width:1550px) {
+   html{
+      font-size:62.5%;
+   }
+   
+}
+//...........................................................................(DESKTOP ENDS HERE)
+
+
+
+// TABLET //
+@media (max-width:1300px) {
+   html{
+      font-size:50%;
+   }
+   
+}
+//...................................................................................(TABLET ENDS HERE)
+
+
+// MOBILE //
+// ........................................(MOBILE STARTS HERE)
+
+// MOBILE PRO MAX
+@media (max-width:900px) {
+    html{
+       font-size:40%;
+    }
+
+ }
+
+//................................................
+
+ // MOBILE PRO
+ @media (max-width:700px) {
+
+    html{
+       font-size:30%;
+    }
+ }
+
+//.......................................
+// MOBILE
+ @media (max-width:600px) {
+
+    html{
+       font-size:30%;
+    }
+ }

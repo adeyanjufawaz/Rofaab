@@ -1,0 +1,140 @@
+
+ // DESKTOP
+
+// DESKTOP PRO MAX
+@media (max-width:2700px) {
+    html{
+       font-size:100%;
+    }
+   
+ }
+ //...................................
+ 
+ // DESKTOP PRO
+ @media (max-width:1700px) {
+    html{
+       font-size:77.5%;
+    }
+   
+ }
+ //...................................
+ 
+ // DESKTOP
+ @media (max-width:1550px) {
+    html{
+       font-size:62.5%;
+    }
+    
+ }
+ //...........................................................................(DESKTOP ENDS HERE)
+ 
+ 
+ 
+ // TABLET //
+ @media (max-width:1300px) {
+    html{
+       font-size:50%;
+    }
+    
+ }
+ //...................................................................................(TABLET ENDS HERE)
+ 
+ 
+ // MOBILE //
+ // ........................................(MOBILE STARTS HERE)
+ 
+ // MOBILE PRO MAX
+ @media (max-width:900px) {
+     html{
+        font-size:40%;
+     }
+ 
+     .header{
+         height:60vh;
+     }
+ 
+     .about-us{
+ 
+       & .grid{
+          grid-template-columns: 1fr;
+          height:50%;
+       }
+     }
+  }
+   //...........................................................................(MOBILE PRO MAX ENDS HERE)
+ 
+ 
+// MOBILE PRO
+   // ........................................(MOBILE PRO HERE)
+  @media (max-width:700px) {
+     html{
+        font-size:33%;
+     }
+     .header{
+       height:60vh;
+   }
+     .service{
+          
+       & .grid{
+          
+          grid-template-columns: 1fr;
+          
+          height:50%;
+          justify-content: center;
+          align-content: center;
+ 
+          & .card{
+             align-self: center;
+             justify-self: center;
+          }
+       }
+     }
+  }
+    //...........................................................................(MOBILE PRO ENDS HERE)
+
+
+ //.......................................
+ // MOBILE
+  @media (max-width:600px) {
+     html{
+        font-size:33%;
+     }
+     
+     .about-us{
+       & .grid{
+          width:80%;
+       }
+     }
+     .our-team{
+        & .grid{
+           grid-template-columns:1fr;   
+ 
+           & .card{
+             margin:0 auto;
+          }
+          
+        }
+     }
+     .footer{
+       & .grid{
+          grid-template-columns: 1fr;
+          width:80%;
+          height:50%;
+       }
+       
+       & .footer__logo-box{
+          display: none;
+       }
+
+       & .footer__address-box{
+            border-bottom:2px solid $color-white;
+            padding:6rem 0;
+       }
+
+       & .footer__navbar ul li a{
+          font-size:3rem;
+       }
+
+     }
+ 
+  }
